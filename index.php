@@ -1,4 +1,4 @@
-<?php wp_header(); ?>
+<?php get_header(); ?>
 <body>
 <h1><?php bloginfo( 'name' ); ?></h1>
 <h2><?php bloginfo( 'description' ); ?></h2>
@@ -30,5 +30,5 @@ previous_posts_link();
 
 <?php endif; ?>
 <?php wp_footer(); ?>
-<?php  include "footer.php" ; ?>
+<?php get_footer(); ?>
 </body>
