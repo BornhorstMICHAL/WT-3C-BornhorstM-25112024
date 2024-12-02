@@ -2,3 +2,22 @@
     Theme Name: My First WordPress Theme
     Author: Michal Bornhorst
 */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+    font-family: Calibri;
+    font-size: 40px;
+}
+p {
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: darkblue;
+    background-color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
