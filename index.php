@@ -29,6 +29,5 @@ previous_posts_link();
 <p>No posts found. :(</p>
 
 <?php endif; ?>
-<?php wp_footer(); ?>
 <?php get_footer(); ?>
 </body>
