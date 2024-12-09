@@ -21,3 +21,35 @@ a {
     text-decoration: none;
     color: black;
 }
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Levý sloupec 1x, pravý 2x */
+    gap: 20px;
+    align-items: start;
+}
+
+.column-left {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.column-right {
+    padding: 15px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
